@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('setup') {
             steps {
-                sh 'apt-get install python'
+                sh 'yum install python'
                 sh 'python get-pip.py'
                 sh 'pip install -r requirements.txt'
                 sh 'python3 -m venv venv'
