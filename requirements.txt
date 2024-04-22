@@ -1,4 +1,3 @@
+py
 toml
 pytest
-python
-python3
